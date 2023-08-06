@@ -4,7 +4,7 @@ Introduction to algorithms
 
 
 <details>
-  <summary>Практические задачи</summary>
+  <summary>Practice_tasks</summary>
 
 - [x] [Task 1. Function values](Practice_tasks/Task_1_Function_values)
 - [x] [Task 2. Even and odd numbers](Practice_tasks/Task_2_Even_and_odd_numbers)
