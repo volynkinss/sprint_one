@@ -4,7 +4,7 @@ temperature_values = list(
 )  # list of temperatures for every day
 
 
-def chaotic_days(
+def chaotic_days_counter(
     n, temperature_values
 ):  # func to check temperature of every day for higher than past and next day and return number of such days (if day only 1 - returned 1)
     chaotic_days = 0
@@ -27,4 +27,4 @@ def chaotic_days(
     return chaotic_days
 
 
-print(chaotic_days(n, temperature_values))  # output result to user
+print(chaotic_days_counter(n, temperature_values))  # output result to user

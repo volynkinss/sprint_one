@@ -7,7 +7,7 @@ index_n = int(input())  # coordinate of line by user for required number
 index_m = int(input())  # coordinate of coloumn by user for required number
 
 
-def neighbors(n, m, index_n, index_m):
+def neighborhood_count(n, m, index_n, index_m):
     neighbors = (
         []
     )  # list of neighbors of the required number to be filled and returned after func
@@ -22,5 +22,7 @@ def neighbors(n, m, index_n, index_m):
     return neighbors
 
 
-for i in sorted(neighbors(n, index_n, index_m)):  # output result with " " for user
+for i in sorted(
+    neighborhood_count(n, index_n, index_m)
+):  # output result with " " for user
     print(i, end=" ")
